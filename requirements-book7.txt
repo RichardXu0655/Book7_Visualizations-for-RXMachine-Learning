@@ -1,0 +1,17 @@
+# requirements-book7.txt
+# Book7 机器学习可视化 - 已验证可共同工作的依赖版本（numpy2 + sklearn1.9 + pymc6）
+# 安装: pip install -r requirements-book7.txt
+numpy>=2.0,<3
+scikit-learn>=1.6
+statsmodels>=0.14.4
+pandas>=2.0
+scipy>=1.13
+matplotlib>=3.9
+seaborn
+pymc>=6
+arviz>=1.0
+yellowbrick
+scikit-image
+yfinance
+pandas-datareader
+jupyterlab>=4

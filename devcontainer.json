@@ -1,0 +1,11 @@
+{
+  "name": "Book7 机器学习可视化学习环境",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-toolsai.jupyter", "ms-python.python"]
+    }
+  },
+  "forwardPorts": [8888]
+}
